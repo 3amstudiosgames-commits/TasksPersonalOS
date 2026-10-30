@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+        <div id="appShortcut"  style="position: absolute; top: 60px; left: 20px; cursor: pointer; text-align: center; color: white; width: 80px;">
+            <img src="https://i.pinimg.com/236x/c3/5a/b4/c35ab45a633d70785b95395c2417e482.jpg" style="width: 50px; height: 50px; border-radius: 10px; display: block; margin: 0 auto; object-fit: cover;" />
+            <p style="margin: 5px 0 0 0; font-size: 12px; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">Welcome App</p>
+        </div>
+
+
+
+
+        <div id="damusicShortcut"class="appShortcutD" style="position: absolute; top: 60px; left: 111px; cursor: pointer; text-align: center; color: white; width: 80px;">
+            <img src="https://i.pinimg.com/736x/4b/b7/06/4bb7061712a042daf3d5b9f6dc3fbb4a.jpg" style="width: 50px; height: 50px; border-radius: 10px; display: block; margin: 0 auto; object-fit: cover;" />
+            <p style="margin: 5px 0 0 0; font-size: 12px; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">damusic</p>
+        </div>
+
+         <div id="playShortcut"class="appShortcutP" style="position: absolute; top: 230px; left: 20px; cursor: pointer; text-align: center; color: white; width: 80px;">
+            <img src="https://i.pinimg.com/736x/93/97/d6/9397d67e9f3df3940a37fcc7de260d34.jpg" style="width: 50px; height: 50px; border-radius: 10px; display: block; margin: 0 auto; object-fit: cover;" />
+            <p style="margin: 5px 0 0 0; font-size: 12px; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">UKWeb</p>
+        </div>
+
+
+        <div id="infoShortcut" class="appShortcutI" style="position: absolute; top: 150px; left: 20px; cursor: pointer; text-align: center; color: white; width: 80px;">
+            <img src="https://i.pinimg.com/736x/22/c6/dd/22c6ddfe4374b42d6398b1a4ab32c675.jpg" style="width: 50px; height: 50px; border-radius: 10px; display: block; margin: 0 auto; object-fit: cover;" />
+            <p style="margin: 5px 0 0 0; font-size: 12px; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">Info</p>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div id="welcome"  class="os-window"style= "border: solid; cursor: pointer; width: fit-content;white-space: nowrap; border-radius: 10px; padding: 20px; position: absolute; top: 50%;  left: 50%;  transform: translate(-50%, -50%);background-color: #fff; ">
+            <p style="cursor: pointer; display: inline-block;" id="welcome-screen-close">Close</p>
+            <center><h1>Welcome To My OS</h1></center>
+            <center><h3>Hello World!</h3></center>
+            
+            <center> <img  class="round-image" style="width: 200px; height: 200px" src="https://i.pinimg.com/736x/b4/d1/88/b4d18848d6950b94155d512325ebe301.jpg" /> </center>
+            <center><p>This is my first time doing a OS!</p></center>
+        </div>
+
+
+
+        <div id="damusic" class="os-window" style="display: none; cursor: pointer; border: solid; width: fit-content; white-space: nowrap; border-radius: 10px; padding: 20px;top: 50%;  left: 50%; position: absolute;transform: translate(-50%, -50%); background-color: #fff; ">
+            <span style="cursor: pointer" class="window-close">Close</span>
+            <center><h1>Welcome To DAMUSIC</h1></center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dM9kkQL-3lY?si=esR7wunxQjh-qBuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+
+
+        <div  id="infoWindow" class="os-window" style="display: none; border: solid; cursor: pointer; width: fit-content; white-space: nowrap; border-radius: 10px; padding: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff;">
+            <p style="cursor: pointer; display: inline-block;" id="info-close">Close</p>
+            <center><h1>You want info.. huh?</h1></center>
+            <center><img class="round-image" style="width: 200px; height: 200px" src="https://i.pinimg.com/736x/a4/15/73/a4157357ac3d1d614c2b2cd22744a89f.jpg" /></center>
+            <center><p>You can play music! If you want to stop the music play pause if not it will play even when closed</p></center>
+             <center><p>Press Icons to find windows</p></center>
+              <center><p>You can see the time and day!</p></center>
+              <center><p>You can play an Itch.IO web port of Ultrakill!</p></center>
+        </div>
+        <div  id="play" class="os-window" style="display: none; border: solid; cursor: pointer; width: fit-content; white-space: nowrap; border-radius: 10px; padding: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff;">
+            <p style="cursor: pointer; display: inline-block;" id="play-close">Close</p>
+            <center><h1>Itch.IO Web Port Ultrakill!!</h1></center>
+            <center><img class="round-image" style="width: 200px; height: 200px" src="https://i.pinimg.com/736x/78/aa/7b/78aa7bd905d84ab5b36ba80ce7be189b.jpg" /></center>
+            <center><a href="https://cake-logic.itch.io/ultrakill-web-port">An Ultrakill port on Itch.IO made by cake-logic</a></center>
+            <center><p>Wow.. So cool</p></center>
+        </div>
+
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 40px; display: flex; justify-content: space-between; align-items: center; padding: 0 16px; box-sizing: border-box; backdrop-filter: blur(10px); background-color: rgba(0, 0, 0, 0.25); color: #fff;">
+            <p>
+                MyOS 
+            </p>
+            <p id="timeElement" style="margin: 0;">
+                Time
+            </p>
+        </div>
+
+
+
+        <script>
+            var appShortcut = document.querySelector("#appShortcut");
+            appShortcut.addEventListener("click", function() {
+                openWindow(welcomeScreen);
+            });
+
+
+
+        
+            
+            //Make the DIV element draggagle:
+            dragElement(document.getElementById("welcome"));
+            var welcomeShortcut = document.querySelector("#appShortcut"); // Make sure this is unique
+            var welcomeScreen = document.querySelector("#welcome");
+            var welcomeScreenClose = document.querySelector("#welcome-screen-close");
+
+            
+            var infoShortcut = document.querySelector("#infoShortcut");
+            var infoWindow = document.querySelector("#infoWindow"); 
+            var infoClose = infoWindow.querySelector("#info-close");
+
+            var damusicShortcut = document.querySelector(".appShortcutD");
+            var damusicWindow = document.querySelector("#damusic");
+            var damusicClose = damusicWindow.querySelector(".window-close");
+
+            var playShortcut = document.querySelector("#playShortcut");
+            var playWindow = document.querySelector("#play");
+            var playClose = playWindow.querySelector("#play-close");
+
+            var allWindows = document.querySelectorAll(".os-window");
+            allWindows.forEach(function(win) {
+                dragElement(win);
+            });
+
+            
+          
+            damusicClose.addEventListener("click", function() {
+                closeWindow(damusicWindow);
+            });
+             damusicShortcut.addEventListener("click", function() {
+                openWindow(damusicWindow);
+            });
+
+
+            infoShortcut.addEventListener("click", function() {
+                openWindow(infoWindow);
+            });
+            infoClose.addEventListener("click", function() {
+                closeWindow(infoWindow);
+            });
+
+
+
+
+
+            welcomeScreenClose.addEventListener("click", function() {
+                closeWindow(welcomeScreen);
+            });
+          
+             welcomeShortcut.addEventListener("click", function() {
+                openWindow(welcomeScreen);
+            });
+            playShortcut.addEventListener("click", function() {
+            openWindow(playWindow);
+            });
+
+            playClose.addEventListener("click", function() {
+                closeWindow(playWindow);
+            });
+
+
+
+
+
+            function closeWindow(element) {
+                element.style.display = "none"
+            }
+            function openWindow(element) {
+                element.style.display = "block"
+            }
+
+            function dragElement(elmnt) {
+            var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+            if (document.getElementById(elmnt.id + "header")) {
+                /* if present, the header is where you move the DIV from:*/
+                document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+            } else {
+                /* otherwise, move the DIV from anywhere inside the DIV:*/
+                elmnt.onmousedown = dragMouseDown;
+            }
+
+            function dragMouseDown(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // get the mouse cursor position at startup:
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                document.onmouseup = closeDragElement;
+                // call a function whenever the cursor moves:
+                document.onmousemove = elementDrag;
+            }
+
+            function elementDrag(e) {
+                e = e || window.event;
+                e.preventDefault();
+                // calculate the new cursor position:
+                pos1 = pos3 - e.clientX;
+                pos2 = pos4 - e.clientY;
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                // set the element's new position:
+                elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+            }
+
+            function closeDragElement() {
+                /* stop moving when mouse button is released:*/
+                document.onmouseup = null;
+                document.onmousemove = null;
+            }
+            }
+        </script>
+
+
+
+
+        <script>
+            function updateTime() {
+            var currentTime = new Date().toLocaleString();
+            var timeText = document.querySelector("#timeElement");
+            timeText.innerHTML = currentTime;
+    }
+
+    setInterval(updateTime, 1000);
+        </script>
+    </body>
+     
+</html>
